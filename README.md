@@ -9,7 +9,7 @@
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/MRMahDiRoO/MaTaDoR.git
+git clone https://github.com/navidmafiya/matadorr.git
 cd MaTaDoR
 chmod +x matador.sh
 chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh
