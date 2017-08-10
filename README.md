@@ -10,11 +10,11 @@
 # Let's install the bot.
 cd $HOME
 git clone https://github.com/navidmafiya/matadorr.git
-cd MaTaDoR
+cd matadorr
 chmod +x matador.sh
 chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh
-./matador.sh install
-./matador.sh 
+./matadorr.sh install
+./matadorr.sh 
 # Enter a phone number & confirmation code.
 ```
 ### One command
@@ -29,7 +29,7 @@ cd $HOME && git clone https://github.com/MRMahDiRoO/MaTaDoR.git && cd MaTaDoR &&
 
 ```
 killall screen
-cd MaTaDoR && screen ./matador.sh
+cd matadorr && screen ./matadorr.sh
 ```
 
 * * *
@@ -38,7 +38,7 @@ cd MaTaDoR && screen ./matador.sh
 ### auto launch 
 ```
 killall screen
-cd MaTaDoR && screen ./auto.sh
+cd matadorr && screen ./auto.sh
 ```
 
 * * *
